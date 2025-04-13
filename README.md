@@ -1,23 +1,11 @@
-# Nuxt Minimal Starter
+# Currently on hold due to scarce architecture designs. 
+## For now, I'm only fretting with the Vue + Nuxt.js duo, but I'll need to conduct a thorough investigation to understand what it entails and allow the project to truly bloom without further complexity.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+# Try it out, dear guest 
 ## Setup
-
-Make sure to install dependencies:
-
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+# Install dependencies
+[npm / pnpm / yarn / bun] install
 ```
 
 ## Development Server
@@ -25,51 +13,22 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+# Start the development server 
+[npm / pnpm / yarn / bun] dev
 ```
 
 ## Production
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+# Briefly preview the prod. build
+[npm / pnpm / yarn / bun] preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Build the application for production:
+
+```bash
+# Compile the app for prod.
+[npm / pnpm / yarn / bun] build
+```
